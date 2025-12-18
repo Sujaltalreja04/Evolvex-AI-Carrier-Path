@@ -10,6 +10,10 @@ import requests
 import json
 import streamlit as st
 from typing import Optional, List, Dict, Any
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # OpenRouter Configuration
 # Try Streamlit secrets first (for Streamlit Cloud), then environment variable
